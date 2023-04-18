@@ -6,7 +6,7 @@ class Booking(models.Model):
     no_of_guests = models.IntegerField(default=0)
     booking_date = models.DateTimeField()
 
-class Menu(models.Model):
+class MenuItem(models.Model):
    title = models.CharField(max_length=200) 
    price = models.IntegerField(null=False) 
    inventory = models.IntegerField(default=0) 
