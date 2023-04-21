@@ -3,7 +3,7 @@ from rest_framework.serializers import ModelSerializer
 class MenuItemSerializer(ModelSerializer):
     class Meta:
         model = MenuItem
-        fields = ['title', 'price', 'inventory']
+        fields = ['id', 'title', 'price', 'inventory']
 
 class BookingSerializer(ModelSerializer):
     class Meta:
